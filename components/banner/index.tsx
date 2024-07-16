@@ -50,7 +50,7 @@ const BannerSection = () => {
       </div>
 
       <div className="relative z-10 text-center max-w-4xl mx-auto">
-        <AnimatePresence mode="wait">
+        <AnimatePresence initial={false} custom={currentSlide} mode="wait">
           <motion.div
             key={currentSlide}
             initial={{ opacity: 0, y: 20 }}

@@ -23,12 +23,12 @@ const AboutUs = () => {
               <li>Offer a wide range of scholarships across various fields of study</li>
               <li>Provide guidance and support throughout the application process</li>
               <li>Connect students with mentors and educational resources</li>
-              <li>Organize workshops and seminars to enhance students' skills</li>
+              <li>Organize workshops and seminars to enhance students&apos; skills</li>
             </ul>
 
             <h3 className="text-2xl font-semibold text-gray-900">Our Impact</h3>
             <p className="text-gray-600">
-              Since our inception, we've helped over 10,000 students achieve their educational goals, awarding more than $50 million in scholarships across the nation.
+              Since our inception, we&apos;ve helped over 10,000 students achieve their educational goals, awarding more than $50 million in scholarships across the nation.
             </p>
           </div>
 
