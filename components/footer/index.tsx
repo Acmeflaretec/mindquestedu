@@ -1,12 +1,13 @@
 'use client';
 
+
 import Link from 'next/link';
 import { useState } from 'react';
 
 const Footer = () => {
-  const [email, setEmail] = useState('');
+  const [email, setEmail] = useState<string>(''); // Ensure email state is explicitly typed
 
-  const handleSubmit = (e) => {
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => { // Explicitly define the type for 'e'
     e.preventDefault();
     // Handle newsletter subscription logic here
     console.log('Subscribing email:', email);
