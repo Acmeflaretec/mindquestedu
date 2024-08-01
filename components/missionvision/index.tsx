@@ -7,7 +7,7 @@ const MissionVision = () => {
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Our Mission & Vision</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Empowering minds, transforming futures, and creating a world where every student has the opportunity to excel.
+          MindQuestEdu was founded by a team of passionate educators, developers, and entrepreneurs who believe that technology has the power to transform the way we learn. We are dedicated to creating a platform that empowers students to take control of their learning journey, fostering a love for lifelong learning and personal growth.
           </p>
         </div>
 
@@ -17,20 +17,20 @@ const MissionVision = () => {
               <FaHandsHelping className="mr-3" /> Our Mission
             </h3>
             <p className="text-gray-700 mb-6">
-              To provide accessible educational opportunities through innovative scholarship programs, fostering academic excellence and personal growth for students from all backgrounds.
+            Our mission is to provide a comprehensive learning ecosystem that caters to diverse learning styles and abilities. We aim to:
             </p>
             <ul className="space-y-4">
               <li className="flex items-start">
                 <FaChalkboardTeacher className="text-red-500 mt-1 mr-3" />
-                <span>Support students in achieving their educational goals</span>
+                <span>Empower students to take control of their learning journey</span>
               </li>
               <li className="flex items-start">
                 <FaUniversity className="text-red-500 mt-1 mr-3" />
-                <span>Promote academic excellence and lifelong learning</span>
+                <span>Foster a love for lifelong learning and personal growth</span>
               </li>
               <li className="flex items-start">
                 <FaUsers className="text-red-500 mt-1 mr-3" />
-                <span>Create a diverse and inclusive educational community</span>
+                <span>Provide a platform for educators to create and share engaging content</span>
               </li>
             </ul>
           </div>
@@ -40,20 +40,20 @@ const MissionVision = () => {
               <FaBook className="mr-3" /> Our Vision
             </h3>
             <p className="text-gray-700 mb-6">
-              To be the leading force in transforming lives through education, creating a world where financial barriers no longer hinder academic and professional success.
+            Our vision is to revolutionize education by harnessing the power of technology to make learning more accessible, personalized, and fun. We envision a world where every individual has the skills, knowledge, and confidence to thrive in an ever-changing world.
             </p>
             <ul className="space-y-4">
               <li className="flex items-start">
                 <FaAward className="text-blue-500 mt-1 mr-3" />
-                <span>A future where every student can access quality education</span>
+                <span>Provide a comprehensive learning ecosystem that caters to diverse learning styles and abilities</span>
               </li>
               <li className="flex items-start">
                 <FaNetworkWired className="text-blue-500 mt-1 mr-3" />
-                <span>Cultivate a generation of innovative and compassionate leaders</span>
+                <span>Foster a sense of community and collaboration among learners, educators, and parents</span>
               </li>
               <li className="flex items-start">
                 <FaHands className="text-blue-500 mt-1 mr-3" />
-                <span>Foster global connections and cultural understanding</span>
+                <span>Offer a range of interactive and immersive educational content that sparks curiosity and creativity</span>
               </li>
             </ul>
           </div>

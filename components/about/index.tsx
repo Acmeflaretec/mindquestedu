@@ -15,15 +15,16 @@ const AboutUs = () => {
           <div className="space-y-6">
             <h3 className="text-2xl font-semibold text-gray-900">Our Mission</h3>
             <p className="text-gray-600">
-              At MindQuest, we believe that every student deserves the opportunity to pursue higher education. Our mission is to break down financial barriers and provide resources that enable students to unlock their full potential.
+            Welcome to MindQuestEdu, a cutting-edge educational platform designed to help students of all ages and abilities unlock their full potential.  Our mission is to empower students of all ages and abilities to unlock their full potential by providing innovative, engaging, and effective learning experiences that cater to the diverse needs of modern learners.
             </p>
             
             <h3 className="text-2xl font-semibold text-gray-900">What We Do</h3>
             <ul className="list-disc list-inside text-gray-600 space-y-2">
-              <li>Offer a wide range of scholarships across various fields of study</li>
-              <li>Provide guidance and support throughout the application process</li>
-              <li>Connect students with mentors and educational resources</li>
-              <li>Organize workshops and seminars to enhance students&apos; skills</li>
+              <li>Innovation: We strive to stay at the forefront of educational technology and pedagogy</li>
+              <li>Collaboration: We believe that partnerships are key to achieving our goals</li>
+              <li>Empathy: We prioritize understanding and catering to the diverse needs of our learners</li>
+              <li>Excellence: We strive for excellence in everything we do, from content creation to platform development</li>
+              <li>Authenticity: We are committed to authenticity in all our interactions, whether with learners, educators, or partners.</li>
             </ul>
 
             <h3 className="text-2xl font-semibold text-gray-900">Our Impact</h3>

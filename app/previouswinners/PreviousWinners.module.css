@@ -1,0 +1,104 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #fff;
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    color: #8b0000;
+    text-align: center;
+    margin-bottom: 0.5rem;
+  }
+  
+  .subtitle {
+    font-size: 1.2rem;
+    color: #4a4a4a;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .winnerGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+  }
+  
+  .winnerCard {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .winnerCard:hover {
+    transform: translateY(-5px);
+  }
+  
+  .imageWrapper {
+    position: relative;
+    width: 100%;
+    padding-top: 100%;
+  }
+  
+  .winnerImage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .winnerInfo {
+    padding: 1.5rem;
+  }
+  
+  .winnerName {
+    font-size: 1.5rem;
+    color: #8b0000;
+    margin-bottom: 0.5rem;
+  }
+  
+  .year {
+    font-size: 1.1rem;
+    color: #4a4a4a;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .university {
+    font-size: 1rem;
+    color: #6a6a6a;
+    margin-bottom: 0.25rem;
+  }
+  
+  .field {
+    font-size: 1rem;
+    color: #6a6a6a;
+    font-style: italic;
+    margin-bottom: 0.5rem;
+  }
+  
+  .achievement {
+    font-size: 0.9rem;
+    color: #4a4a4a;
+    line-height: 1.4;
+  }
+  
+  @media (max-width: 768px) {
+    .title {
+      font-size: 2rem;
+    }
+  
+    .subtitle {
+      font-size: 1rem;
+    }
+  
+    .winnerGrid {
+      grid-template-columns: 1fr;
+    }
+  }
